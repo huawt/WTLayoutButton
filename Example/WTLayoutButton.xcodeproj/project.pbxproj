@@ -24,6 +24,7 @@
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		9C923CC27BDC7A312FA27818 /* Pods_WTLayoutButton_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5266EF7354E2FDF38453E4CC /* Pods_WTLayoutButton_Example.framework */; };
 		AD7F62DE703479BFCEC1276D /* Pods_WTLayoutButton_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AB0E5940220299ED2B15AE0 /* Pods_WTLayoutButton_Tests.framework */; };
+		C88BF247237033BF00D024FB /* Friend.png in Resources */ = {isa = PBXBuildFile; fileRef = C88BF246237033BF00D024FB /* Friend.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +67,7 @@
 		9AB0E5940220299ED2B15AE0 /* Pods_WTLayoutButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WTLayoutButton_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4DFB8A07F397F0F2B40FFF2 /* WTLayoutButton.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WTLayoutButton.podspec; path = ../WTLayoutButton.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BA687AE9C24079228F04F15B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		C88BF246237033BF00D024FB /* Friend.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Friend.png; sourceTree = "<group>"; };
 		F4DFB2C7AE52AE9449709742 /* Pods-WTLayoutButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WTLayoutButton_Tests.release.xcconfig"; path = "Target Support Files/Pods-WTLayoutButton_Tests/Pods-WTLayoutButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -132,6 +134,7 @@
 		6003F593195388D20070C39A /* Example for WTLayoutButton */ = {
 			isa = PBXGroup;
 			children = (
+				C88BF246237033BF00D024FB /* Friend.png */,
 				6003F59C195388D20070C39A /* WTAppDelegate.h */,
 				6003F59D195388D20070C39A /* WTAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -280,6 +283,7 @@
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				C88BF247237033BF00D024FB /* Friend.png in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
