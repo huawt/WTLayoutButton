@@ -22,7 +22,7 @@ pod 'WTLayoutButton'
 
 ## Author
 
-huawt, huawentao@vipkid.com.cn
+huawt, ghost26sky@163.com
 
 ## License
 

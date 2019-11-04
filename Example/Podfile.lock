@@ -1,0 +1,16 @@
+PODS:
+  - WTLayoutButton (1.0.0)
+
+DEPENDENCIES:
+  - WTLayoutButton (from `../`)
+
+EXTERNAL SOURCES:
+  WTLayoutButton:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WTLayoutButton: 2c0dc6c3ef7764c7939a43281dac40da6b2f9cd4
+
+PODFILE CHECKSUM: 76035906a8f2fd430ebe48febe9803387ff9fbcd
+
+COCOAPODS: 1.8.4
