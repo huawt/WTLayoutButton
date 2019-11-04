@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'WTLayoutButton_Example' do
+  pod 'WTLayoutButton', :path => '../'
+
+  target 'WTLayoutButton_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
