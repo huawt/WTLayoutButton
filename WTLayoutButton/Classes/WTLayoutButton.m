@@ -13,15 +13,39 @@
 
 - (instancetype)initWithFrame:(CGRect)frame {
     if (self = [super initWithFrame:frame]) {
-        self.midSpacing = 8;
+        _midSpacing = 8;
+        _layoutStyle = WTLayoutButtonStyleLeftImageRightTitle;
     }
     return self;
 }
 
-- (void)setFrame:(CGRect)frame
-{
-    self.midSpacing = 8;
+- (void)awakeFromNib {
+    [super awakeFromNib];
+    _midSpacing = 8;
+    _layoutStyle = WTLayoutButtonStyleLeftImageRightTitle;
+}
+
+- (void)setFrame:(CGRect)frame {
+    _midSpacing = 8;
     [super setFrame:frame];
+}
+
+- (void)setMidSpacing:(CGFloat)midSpacing {
+    _midSpacing = midSpacing;
+    [self layoutIfNeeded];
+}
+
+- (void)setLayoutStyle:(WTLayoutButtonStyle)layoutStyle {
+    _layoutStyle = layoutStyle;
+    [self layoutIfNeeded];
+}
+
+- (void)setLayoutStyleAdapter:(NSInteger)layoutStyleAdapter{
+    self.layoutStyle = layoutStyleAdapter;
+}
+
+- (NSInteger)layoutStyleAdapter {
+    return  self.layoutStyle;
 }
 
 - (void)layoutSubviews {

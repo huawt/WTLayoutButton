@@ -19,7 +19,9 @@ typedef NS_ENUM(NSUInteger, WTLayoutButtonStyle) {
 @interface WTLayoutButton : UIButton
 
 /// 布局方式
-@property (nonatomic, assign) WTLayoutButtonStyle layoutStyle;
+@property (nonatomic, assign) IBInspectable WTLayoutButtonStyle layoutStyle;
+@property (nonatomic, assign) IBInspectable NSInteger layoutStyleAdapter;
 /// 图片和文字的间距，默认值8
-@property (nonatomic, assign) CGFloat midSpacing;
+@property (nonatomic, assign) IBInspectable CGFloat midSpacing;
 @end
+
